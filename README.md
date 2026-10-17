@@ -1,13 +1,13 @@
-# Plaque Classification — Code Repository
+# PlaqueMap
 
-This repository contains the complete codebase for a plaque classification research project. It is organized into three modules that together form an end-to-end pipeline, from raw images to downstream analysis.
+This repository contains the complete codebase for a plaque morphological analysis project. It is organized into three modules that together form an end-to-end pipeline, from raw images to downstream analysis.
 
 ```
 raw plaque image
       │
       ▼
 ┌─────────────────────────────┐
-│  Module 1 · Feature         │  segmentation → feature construction → radiomics extraction
+│  Module 1 · Feature         │  segmentation → feature construction → feature extraction
 │  Extraction                 │
 └─────────────────────────────┘
       │  feature tables (CSV)
