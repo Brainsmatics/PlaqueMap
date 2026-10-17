@@ -1,0 +1,97 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below and this software archive."
+title: "PlaqueMap: code for mesoscale morphological subtyping and spatiotemporal evolution of A-beta plaque heterogeneity in the whole mouse brain"
+type: software
+
+authors:
+  - family-names: "Gong"
+    given-names: "Guixuan"
+  - family-names: "Jia"
+    given-names: "Xueyan"
+  - family-names: "Long"
+    given-names: "Ben"
+  - family-names: "Chen"
+    given-names: "Siqi"
+  - family-names: "Jiang"
+    given-names: "Tao"
+  - family-names: "Yang"
+    given-names: "Qihang"
+  - family-names: "Ren"
+    given-names: "Miao"
+  - family-names: "Liu"
+    given-names: "Xin"
+  - family-names: "Luo"
+    given-names: "Yue"
+  - family-names: "Feng"
+    given-names: "Zhao"
+  - family-names: "Gong"
+    given-names: "Hui"
+  - family-names: "Luo"
+    given-names: "Qingming"
+  - family-names: "Li"
+    given-names: "Xiangning"
+  - family-names: "Li"
+    given-names: "Anan"
+  # TIP: add `orcid: "https://orcid.org/0000-0000-0000-0000"` under each author that has one
+
+# --- fill in these two once available ---
+# doi: 10.5281/zenodo.XXXXXXX                          # uncomment + fill after Zenodo publishes
+# repository-code: "https://github.com/ORG/REPO"       # fill after GitHub access is granted
+url: "http://atlas.brainsmatics.cn/PlaqueMap"
+
+version: 1.0.0
+date-released: "2026-10-17"
+license: MIT
+
+keywords:
+  - amyloid-beta
+  - plaque morphotype
+  - plaque subtype
+  - radiomics
+  - fMOST
+  - Alzheimer's disease
+  - machine learning
+  - whole mouse brain
+
+abstract: >
+  An end-to-end pipeline for quantitative characterization of amyloid-beta (A-beta) plaques.
+  Module 1 extracts geometric, intensity and radiomics features from 2D and 3D plaque images;
+  Module 2 classifies plaques into morphotypes (Diffuse / Core / CAA) and discovers subtypes
+  by clustering; Module 3 provides standalone downstream analysis tools (feature similarity,
+  post-processing, and distribution-difference testing).
+
+preferred-citation:
+  type: article
+  title: "Mesoscale Morphological Subtyping and Spatiotemporal Evolution of A-beta Plaque Heterogeneity in the Whole Mouse Brain"
+  authors:
+    - family-names: "Gong"
+      given-names: "Guixuan"
+    - family-names: "Jia"
+      given-names: "Xueyan"
+    - family-names: "Long"
+      given-names: "Ben"
+    - family-names: "Chen"
+      given-names: "Siqi"
+    - family-names: "Jiang"
+      given-names: "Tao"
+    - family-names: "Yang"
+      given-names: "Qihang"
+    - family-names: "Ren"
+      given-names: "Miao"
+    - family-names: "Liu"
+      given-names: "Xin"
+    - family-names: "Luo"
+      given-names: "Yue"
+    - family-names: "Feng"
+      given-names: "Zhao"
+    - family-names: "Gong"
+      given-names: "Hui"
+    - family-names: "Luo"
+      given-names: "Qingming"
+    - family-names: "Li"
+      given-names: "Xiangning"
+    - family-names: "Li"
+      given-names: "Anan"
+  journal: "Nature Communications"
+  year: 2026
+  # doi: 10.1038/s41467-XXXXX   # add once the paper is published

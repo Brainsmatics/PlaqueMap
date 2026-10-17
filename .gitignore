@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+output/
+extract/
+extract_2D/
+*.tif
+*.tiff
+*.nii
+*.nrrd
+!test/**/*.tif
